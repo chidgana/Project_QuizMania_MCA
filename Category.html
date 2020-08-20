@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Quiz Mania-Category</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="javascript.js">
+    </script>
+  </head>
+  <body onload="CategoryPageLoad()">
+	<h1>Quiz Mania</h1>
+    <ul id="navbar">
+		<li id="navbarlist"><a href="index.html">Home</a></li>
+          <li id="navbarlist"><a href="Category.html">Categories</a></li>
+          <li id="navbarlist"><a href="Rules.html">Rules</a></li>
+    </ul>
+  <p id="pidname" style="text-align: center"></p>
+    <div class="div2">
+      <p>Choose the category:<br></p>
+        <input type="radio" name="cate" value="1" id="rad1" onclick="chooseCategory(this)">General Knowledge<br>
+        <input type="radio" name="cate" value="2" id="rad2" onclick="chooseCategory(this)">Java Programming<br>
+        <input type="radio" name="cate" value="3" id="rad3" onclick="chooseCategory(this)">Science&Technology<br>
+        <input type="radio" name="cate" value="4" id="rad4" onclick="chooseCategory(this)">Computer Science<br>
+        <input type="button" value="MCA">
+        <input type="button" name="" value="Continue" onclick="selectedCategoryLoad()" style="position: absolute; left: 128px; top: 178px;">
+    </div>
+  </body>
+</html>
