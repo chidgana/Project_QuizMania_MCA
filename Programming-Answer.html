@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <title>Quiz Mania-Programming</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="javascript.js">
+    </script>
+  </head>
+  <body>
+<h1>Quiz Mania</h1>
+    <ul id="navbar">
+          <li id="navbarlist"><a href="index.html">Home</a></li>
+          <li id="navbarlist"><a href="Category.html">Categories</a></li>
+          <li id="navbarlist"><a href="Rules.html">Rules</a></li>
+   </ul>
+    <p>1.What will be the output of the program?
+      <pre>
+      Float f = new Float("12");
+      switch (f)
+      {
+        case 12: System.out.println("Twelve");
+        case 0: System.out.println("Zero");
+        default: System.out.println("Default");
+      }</pre>
+<br>
+      <ul type="a">
+        <li><input type="radio"  value="a">Zero</li>
+        <li><input type="radio"  value="b">Twelve</li>
+        <li><input type="radio"  value="c">Default</li>
+        <li><input type="radio"  value="d"><b>Compilation fails</b></li>
+      </ul><br>
+      2.Which of the following line of code is suitable to start a thread ?<br>
+      <pre>class X implements Runnable
+      {
+        public static void main(String args[])
+        {
+          /* Missing code? */
+        }
+        public void run() {}
+      }</pre>
+        <ul type="a">
+          <li><input type="radio"  value="a">Thread t = new Thread(X);</li>
+          <li><input type="radio"  value="b"><b>Thread t = new Thread(X); t.start();</b></li>
+          <li><input type="radio"  value="c">X run = new X(); Thread t = new Thread(run); t.start();</li>
+          <li><input type="radio"  value="d">Thread t = new Thread(); x.run();</li>
+        </ul>
+        3.What will be the output of the program?
+        <br>
+        <pre>String a = "ABCD";
+             String b = a.toLowerCase();
+             b.replace('a','d');
+             b.replace('b','c');
+             System.out.println(b);</pre>
+          <ul type="a">
+            <li><input type="radio"  value="a"><b>abcd</b></li>
+            <li><input type="radio"  value="b">ABCD</li>
+            <li><input type="radio"  value="c">dccd</li>
+            <li><input type="radio"  value="d">dcba</li>
+          </ul><br>
+        4.What will be the output of the program? <br>
+        <pre>for (int i = 0; i < 4; i += 2)
+          {
+            System.out.print(i + " ");
+          }
+          System.out.println(i);</pre>
+          <ul type="a">
+            <li><input type="radio"  value="a">0 2 4</li>
+            <li><input type="radio"  value="b">0 2 4 5</li>
+            <li><input type="radio"  value="c">0 1 2 3 4</li>
+            <li><input type="radio"  value="d"><b>Compilation fails</b></li>
+          </ul><br>
+        5.What will be the output of the program?<br>
+        <pre>int x = 3;
+              int y = 1;
+              if (x = y) /* Line 3 */
+              {
+                System.out.println("x =" + x);
+              }</pre>
+          <ul type="a">
+              <li><input type="radio"  value="a">x = 1</li>
+              <li><input type="radio"  value="b">x = 3</li>
+              <li><input type="radio"  value="c"><b>Compilation fails</b></li>
+              <li><input type="radio"  value="d">The code runs with no output</li>
+          </ul><br>
+        6.What will be the output of the program? <br>
+        <pre>public class Test
+            {
+              private static float[] f = new float[2];
+              public static void main (String[] args)
+              {
+                System.out.println("f[0] = " + f[0]);
+              }
+            }</pre>
+          <ul type="a">
+              <li><input type="radio"  value="a">f[0] = 0</li>
+              <li><input type="radio"  value="b"><b>f[0] = 0.0</b></li>
+              <li><input type="radio"  value="c">Compile Error</li>
+              <li><input type="radio"  value="d">Runtime Exception</li>
+            </ul><br>
+            7.What will be the output of the program? <br>
+            <pre>class Q207
+                  {
+                    public static void main(String[] args)
+                    {
+                      int i1 = 5;
+                      int i2 = 6;
+                      String s1 = "7";
+                      System.out.println(i1 + i2 + s1);
+                    }
+                  }</pre>
+              <ul type="a">
+                  <li><input type="radio"  value="a">18</li>
+                  <li><input type="radio"  value="b"><b>117</b></li>
+                  <li><input type="radio"  value="c">567</li>
+                  <li><input type="radio"  value="d">Compiler error</li>
+              </ul><br>
+            8.What will be the output of the program? <br>
+            <pre>
+              for(int i = 0; i < 3; i++)
+              {
+                switch(i)
+                {
+                  case 0: break;
+                  case 1: System.out.print("one ");
+                  case 2: System.out.print("two ");
+                  case 3: System.out.print("three ");
+                }
+              }
+              System.out.println("done");</pre>
+              <ul type="a">
+                  <li><input type="radio"  value="a">done</li>
+                  <li><input type="radio"  value="b">one two done</li>
+                  <li><input type="radio"  value="c">one two three done</li>
+                  <li><input type="radio"  value="d"><b>one two three two three done</b></li>
+              </ul><br>
+            9.<pre>
+              public void test(int x)
+              {
+                int odd = 1;
+                if(odd) /* Line 4 */
+                {
+                  System.out.println("odd");
+                }
+                else
+                {
+                  System.out.println("even");
+                }
+              }
+              </pre>Which statement is true?<br>
+                <ul type="a">
+                  <li><input type="radio"  value="a"><b>Compilation fails.</b></li>
+                  <li><input type="radio"  value="b">"odd" will always be output.</li>
+                  <li><input type="radio"  value="c">"even" will always be output.</li>
+                  <li><input type="radio"  value="d">"odd" will be output for odd values of x, and "even" for even values.</li>
+                </ul><br>
+            10.What will be the output of the program? <br>
+            <pre>
+              public class A
+              {
+                void A() /* Line 3 */
+                {
+                  System.out.println("Class A");
+                }
+                public static void main(String[] args)
+                {
+                  new A();
+                }
+              }</pre>
+                <ul type="a">
+                  <li><input type="radio"  value="a">Class A</li>
+                  <li><input type="radio"  value="b">Compilation fails.</li>
+                  <li><input type="radio"  value="c">An exception is thrown at line 3.</li>
+                  <li><input type="radio"  value="d"><b>The code executes with no output</b></li>
+                </ul><br>
+      </p>
+        </body>
+</html>
