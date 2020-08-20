@@ -1,0 +1,82 @@
+  #navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	border-bottom-style: dotted;
+	border-radius: 20px;
+
+  }
+  #navbarlist
+  {
+    float: left;
+
+  }
+  #navbarlist a
+  {
+    display: block;
+    padding: 18px;
+    text-decoration: none;
+  }
+  li a:hover{
+    cursor: pointer;
+    background-color:lightgreen;
+  }
+
+h1{
+    text-align: center;
+    padding: 20px;
+	background-color: aqua;
+	border-style: dotted;
+	border-color:black;
+	border-radius: 40px;
+}
+
+.div1{
+	text-align: center;
+	padding: 10px;
+	border-style: dotted;
+	position: absolute;
+	left: 502px;
+	top: 257px;
+	width: 312px;
+	height: 161px;
+	border-radius: 20px;
+}
+
+.div1 p{
+	text-align: center;
+	padding: 10px
+
+}
+
+.div2{
+	padding: 10px;
+	border-style: dotted;
+	position: absolute;
+	left: 502px;
+	top: 257px;
+	width: 312px;
+	height: 191px;
+	border-radius: 20px;
+}
+
+.div3{
+	padding: 10px;
+	border-style: dotted;
+	position: absolute;
+	left: 502px;
+	top: 257px;
+	width: 312px;
+	height: 191px;
+	border-radius: 20px;
+}
+
+pre{
+	border-style:dashed;
+	background-color: lightgray;
+	left: 502px;
+	top: 257px;
+	width: 500px;
+	height: 191px;
+}
